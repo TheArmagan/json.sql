@@ -1,0 +1,20 @@
+{
+	"dependencies": {
+		"jsonpath": "^1.1.1",
+		"lodash": "^4.17.21",
+		"pg": "^8.12.0"
+	},
+	"devDependencies": {
+		"@types/jsonpath": "^0.2.4",
+		"@types/lodash": "^4.17.6",
+		"@types/pg": "^8.11.6",
+		"dotenv": "^16.4.5",
+		"tsx": "^4.16.0",
+		"typescript": "^5.5.3"
+	},
+	"scripts": {
+		"s:prototype": "tsx scripts/prototype.ts",
+		"s:parse": "tsx scripts/parse.ts",
+		"s:paths": "tsx scripts/paths.ts"
+	}
+}
